@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "595071251451",
+    "firebase_url": "https://smartpillreminder-635cc-default-rtdb.firebaseio.com",
+    "project_id": "smartpillreminder-635cc",
+    "storage_bucket": "smartpillreminder-635cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595071251451:android:e82c4a9afb6d0e9989115e",
+        "android_client_info": {
+          "package_name": "com.example.smartpillreminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFw9EyVjBCCBXTdXtiLdy6qSQlX1b3P0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

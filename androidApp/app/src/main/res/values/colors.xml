@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primary_color">#6C63FF</color>  <!-- Purple-ish primary color -->
+    <color name="primary_dark">#564FDA</color>
+    <color name="primary_light">#A39EFF</color>
+    <color name="secondary_color">#FF6584</color>  <!-- Pink accent color -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#FF5252</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="on_background">#212121</color>
+    <color name="on_surface">#212121</color>
+    <color name="teal">#103758</color>
+    <color name="teal_light">#1A4D6E</color> <!-- Optional lighter variant for contrast -->
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal"
+        app:title="Pill Reminder"
+        app:titleTextColor="@color/white"
+        app:tint="@color/white"/>
+
+    <!-- Today's Pills List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fabAdd"
+        android:layout_marginTop="55dp"
+        android:padding="8dp"/>
+
+    <!-- Add Pill Button -->
+
+    <Button
+        android:id="@+id/btnClassifyPill"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Verify Pill" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="@color/teal"
+        android:src="@drawable/baseline_add_24"
+        app:tint="@color/white"
+        />
+</RelativeLayout>

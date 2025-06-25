@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <!-- Pill Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPillName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pill Name"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Time Picker -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder Time"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/teal"
+            android:textSize="30dp"
+            android:fontFamily="@font/frozenice"/>/>
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/CustomTimePicker"/>  <!-- Apply custom style -->
+
+        <!-- Dosage -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDosage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dosage (e.g., 1 tablet)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="SAVE SCHEDULE"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/teal"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
