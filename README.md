@@ -189,7 +189,7 @@ char pass[] = "";
 ## 🙋‍♀️ Team Members
 
 * Hana Hasmath
-* Fathima Nuha
+* Nuha Yoosuf
 * Fathima Reeshma
 * Fathima Kishor
 
